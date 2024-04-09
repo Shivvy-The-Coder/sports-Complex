@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Retrieval</title>
+    <!-- Include your CSS styles here -->
+    <link rel="stylesheet" href="./view_staff_style.css">
+</head>
+<body>
+    <div  style=" display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5vh;">
+    
+    
+    <div><img src="../../Images/BIT-Mesra (1).png" alt=""></div>
+    <div><h1>Data Retrieval coloumn</h1></div>
+    <div class="c0">
+        <div class="container">
+            <input type="text" id="eidInput" placeholder="Enter EID">
+            <button onclick="fetchStaffData()">Search</button>
+        </div>
+    </div>
+    </div>
+    
+
+    <div style="display: flex; justify-content: center; align-items: center; ">
+        <div id="staffDataSection" class="container3">
+            <!-- Data will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <!-- Include your JavaScript file -->
+    <script src="./view_staff_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+body 
+{
+    padding: 0rem;
+    margin: 0rem;
+}
+.container0
+{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+.container0>div
+{
+    color: white;
+    border-radius: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 0.01rem;
+    text-align: center;
+}
+.container0>div a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* banner scetion of the page1 index page starts ,here */
+.container1
+{
+    display: flex;
+    height: 18vh;
+    gap: 1rem;
+    padding-left: 1rem;
+    box-shadow: 0px 0px 15px black;
+    margin:0.5rem ;
+
+}
+.c1c1
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 12px rgb(0 0 0 1 );
+
+}
+.c1c2
+{
+    width: 35%;
+}
+.c1c2 p
+{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:30px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(167, 19, 19);
+}
+
+
+/* banner section of the page1 Index ends here */
+
+
+.container2
+{
+    display: flex;
+    margin:2rem 10%;
+    height: 50vh;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.ch1
+{   height: 49vh;    
+    background-color: aliceblue;
+    width: 100%;text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow:1px 2px 100px aliceblue;
+
+}
+.ch2
+{   height: 49vh;
+    width: 90%;
+    border: 1px solid whitesmoke;
+    box-shadow:1px 2px 10px black;
+    
+}
+.ch1 h1
+{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px grey;
+}
+.ch1 p
+{
+    padding: 2rem;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container4
+{   height: 100vh;
+    margin:2rem 10%;
+}
+.btn_edit
+{
+    color: white; border-radius: 0px; font-size: small;height: 7vh; 
+}
+.btn_drop
+{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/* first FRONT END SECTION OF SPORTS BEGINS HERE */
+.container5
+{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 10rem 1rem 10rem;
+    height: 40vh;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.container5>div
+{
+    width: 80vw;
+}
+
+.container5SidePannel>div
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 0.1rem;
+    padding: 0.3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container5SidePannel>div>div
+{
+
+    margin-top: 0.1rem;
+    padding: 0.3rem;
+
+}
+.container5sport
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    background-color: aliceblue;
+}
+.container5sport a
+{
+    color: white;
+    text-decoration: none;
+}
+.container5 img
+{
+    height: 40vh;
+    width: 60vw;
+    image-rendering: optimizeQuality;
+    border-radius: 5px;
+}
+
+
+
+/* first FRONT END SECTION OF SPORTS Ends HERE */
+.container6
+{
+    display: flex;
+    margin: 5rem 12rem 1rem 12rem;
+    height: 50vh;
+    gap: 5rem;
+    border-radius: 4px;
+}
+.container6>div
+{
+    background-color: aliceblue;
+    height: 50vh;
+    width: 60vw;
+}
+.container6 img
+{
+    height: 50vh;
+    width: 50vw;
+    image-rendering: optimizeQuality;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+.red
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    justify-content: center;
+    height: auto;
+
+}
+.red div
+{
+    background-color: rgb(216, 24, 24);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+
+}
+.red div p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    text-align: start;
+    padding: 0.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+
+}
+.container7
+{
+    display: flex;
+    height:auto;
+    margin: 2rem 19rem ;
+    justify-content: center;
+    padding: 10px;
+}
+footer
+{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.733);
+    gap: 5rem;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign Work</title>
+    <link rel="stylesheet" href="AssignWork.css">
+</head>
+<body>
+    <div style="display: flex; margin-left: 1rem; margin-top: 1rem;">
+        <button id="backButton" onclick="goBack()">Go Back</button>
+    </div>
+    <div class="container">
+        <div class="task">
+            <div><img src="../../Images/Birla_Institute_of_Technology_Mesra.png" style="height: 10vh;" alt=""></div> 
+            <div><h1>Work Assignment Portal</h1></div>
+            <hr style="color: black; width: 100%; margin-top: -2vh;">
+            <button id="addTaskBtn">add new Task +</button>            
+        </div>
+        <div class="task">
+            <button id="submitTasksBtn">Submit Tasks</button>
+        </div>
+    </div>
+
+    <!-- Back button -->
+    <footer class="footer">
+        <p>&copy; 2024 Website created by Team 17 of the SEP LAB Assignment</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="./AssignWork.js"></script>
+
+    <script>
+        // Function to go back to the previous page
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+
+
+
+</body>
+</html>

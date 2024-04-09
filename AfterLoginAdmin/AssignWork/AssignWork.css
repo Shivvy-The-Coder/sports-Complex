@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../Images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh; /* Set a fixed height for the body */
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #13010185;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.007);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 1px 5px rgb(12, 5, 5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 1vh;
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.task-description {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; /* Display vertically */
+}
+
+.task-description label {
+    margin-bottom: 5px;
+}
+
+.task-description textarea {
+    width: 100%; /* Adjust width to accommodate padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-right: 20px; /* Add some margin to separate from labels */
+}
+#backButton
+{
+    background-color: #00b309;
+}
+
+#backButton:hover {
+    background-color: rgb(121, 202, 0); 
+    
+}
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 41vh;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff_Login Page</title>
+    <link rel="stylesheet" href="./Afterlogin_Style.css">
+</head>
+<body>
+   
+    <!-- header section of the login page of the login page begins here -->
+    <div class="header1">    
+        <div>
+            <img src="../../Images/Birla_Institute_of_Technology_Mesra.png" height="120vh" width="auto">
+        </div>
+        <div>
+            <img src="../../Images/BIT-Mesra.png" alt="">
+        </div>   
+    </div>
+    <!-- header section of the login page of the login page ends here -->
+
+    <!-- main section of the login page begins here -->
+    <div class="container0">
+
+        <div class="one">
+            <div>
+                <img src="../../Images/Sport_complex-removebg-preview.png" height="120vh" width="auto">
+            </div>
+
+            <div>
+                <p class="modifiedpara">SPORTS COMPLEX <br>BIRLA INSTITUTE OF TECHNOLOGY, MESRA </p>
+                <p><span class="modifiedpara">Institute Vision</span> <br> To become a globally recognized academic institution in consonance with the social, economic and ecological environment, striving continuously for excellence in education, research and technological service to the national needs.</p>
+                <p><span class="modifiedpara">Institute Mission</span> <br>1. To educate students at Undergraduate, Post Graduate, Doctoral and Post Doctoral levels to perform challenging engineering and managerial jobs in industry <br>
+                    2. To provide excellent research and development facilities to take up Ph.D programmes and research projects <br>
+                    3. To develop effective teaching and learning skills and state-of-the-art research potential of the faculty <br>
+                    4. To build national capabilities in technology, education and research in emerging areas <br>
+                    5. To provide excellent technological services to satisfy the requirements of the industry and overall academic needs of society</p>
+            </div>
+        </div>
+
+        <div class="two">
+            <div>
+                <div class="two1"><h3>Welcome! Please login to continue.</h3></div>
+                <div class="two2">
+                    <form id="loginForm"> <!-- Assign an ID to the form -->
+                        <div>
+                            <label for="username"></label>
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="pwrd"></label>
+                            <input type="password" id="password" placeholder="Password" required>
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <button type="button" onclick="login()">login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="two3"></div>
+            </div>
+        </div>
+    </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <!-- main section of the login page ends here -->
+
+    <!-- JavaScript code to handle form submission and redirect -->
+<script src="./Afterlogin_Script.js"></script>
+</body>
+</html>

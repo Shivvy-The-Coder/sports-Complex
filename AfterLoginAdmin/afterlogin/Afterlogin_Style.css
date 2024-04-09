@@ -1,0 +1,140 @@
+body
+{
+    background-image: url(../../Images/banner.png);
+    margin: 1rem;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header1
+{
+    height: 15vh;
+    background-color:rgba(238, 234, 234, 0.377);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.438);
+}
+.container0
+{
+    display: flex;
+    margin: 5rem 5rem 0rem 5rem;
+    padding: 5px;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+.container0 > div
+{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 60vh;
+    border-radius: 5px;
+}
+.one
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 60%;
+}
+.modifiedpara
+{
+
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-left:2rem ;
+    text-shadow: 1px 1px 1px black;
+}
+.one div p
+{
+        
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-left:2rem ;
+}
+
+.two
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 29%;
+}
+.two>div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.432);
+
+}
+.two1
+{
+    flex-basis: 5vh;
+}
+.two2
+{
+    display: flex;
+    flex-basis: 30vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1rem;
+}
+.two1 h3
+{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label
+{
+    color: white;
+}
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input
+{
+    width: 17vw;
+    height: 3vh;
+    border: 3px solid rgb(36, 106, 197);
+    border-radius: 5px;
+}
+
+button
+{
+    width: 14vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color:#1c89ff;
+}
+button:hover
+{
+    background-color:#0a6eda;
+
+} 
+#loginwork
+{
+
+}

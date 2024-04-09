@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIT Sports Admin_Login_PAge</title>
+    <link rel="stylesheet" href="./Dashboard_Admin_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body >
+    <div class="container0">
+        
+      <button type="button" class="btn " style="color: white; border-radius: 0px; font-size: small;height: 1vh;" ><a href="../index.html" style="color: white; text-decoration: none;">Home</a>
+       </button>
+         
+            <!-- Aboust us start-->
+            <button type="button" class="btn " style="color: white; border-radius: 0px; font-size: small;height: 1vh;" >About us </button>
+            </button>
+             <!--About us end  -->
+
+            <!-- Administration -->
+            <button type="button" class="btn " style="color: white; border-radius: 0px; font-size: small;height: 1vh;" >Administration </button>
+            </button>
+
+            <!-- Administration -->
+
+            <!-- Example split danger button -->
+            <div class="btn-group">
+    <button type="button" class="btn " style="color: white; border-radius: 0px; font-size: small;height: 1vh;" >Sports facilities</button>
+    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" style="color: white; border-radius: 0px; font-size: small;height: 1vh;" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu" style="background-color: black;">
+      <li><a class="dropdown-item btn_drop" href="./BasketBall/BasketBallIndex.html" target="_blank">BasketBall</a></li>
+      <li><a class="dropdown-item btn_drop" href="./Football/FootballIndex.html" target="_blank">FootBall</a></li>
+      <li><a class="dropdown-item btn_drop" href="./Badminton/BadmintonIndex.html" target="_blank">Badminton</a></li>
+      <li><a class="dropdown-item btn_drop" href="./Volleyball/VollyeballIndex.html" target="_blank">Volleyball</a></li>
+      <li><a class="dropdown-item btn_drop" href="./Gym/GymIndex.html" target="_blank">Gym</a></li>
+      <li><a class="dropdown-item btn_drop" href="./Cricket/cricket.html"  >Cricket</a></li>
+    </ul>
+             </div>
+            <!--  -->
+
+            
+            <button type="button" class="btn " style="color: white; border-radius: 0px; font-size: small;height: 1vh;" >Alumini</button>
+            <button type="button" class="btn " style="color: white; border-radius: 0px; font-size: small;height: 1vh;" >Faculity Members</button>
+            <button type="button" class="btn " style="color: white; border-radius: 0px; font-size: small;height: 1vh;" >Register For Events</button>
+            
+            <!-- Example split danger button -->
+            <div class="btn-group">
+                <button id="logout-button" type="button" class="btn" style="color: white; border-radius: 0px; font-size: small;height: 1vh;">Log out</button>
+
+                        </div>
+            <!--  -->                     
+    </div>
+    <div class="container2 ">
+      <div class="c21">
+        <div class="cont"><img src="../../Images/Birla_Institute_of_Technology_Mesra.png" height="150vh"></div>
+        <div class="designed" style="margin-top: -7vh;">
+            <div class="image">
+                <div id="t1">
+                  <img  id="profile-picture" src="" alt="Profile Picture">
+                </div>
+
+                <div>
+                  <button><label for="profilePictureInput" class="profile-upload-btn">Upload Profile Picture</label></button>
+                  <input type="file" id="profilePictureInput" accept="image/*" style="display: none;">
+                    
+                </div>
+            </div>         
+        </div>
+        <div class="dis">
+          <div id="user-details"></div>
+        </div>
+    </div>
+
+      <div class="c22 designed">
+        <div class="c23 "><div style="display: flex; justify-content: flex-start; align-items: center; text-align: start;"><span><h5>ADD  ADMIN</h5></span></div><div><a href="../add_admin/newAdmin_index.html" class="button" >click Here</a></div></div>
+        <div class="c23"><div style="display: flex; justify-content: flex-start; align-items: center; text-align: start;"><span><h5>ADD  STAFF</h5></span></div><div><a href="../add_staff/add_staff_index.html" class="button">click Here</a></div></div>
+        <div class="c23"><div style="display: flex; justify-content: flex-start; align-items: center; text-align: start;"><span><h5>VIEW STAFF</h5></span></div><div><a href="../view_staff/view_staff_index.html" class="button">click Here</a></div></div>
+        <div class="c23"><div style="display: flex; justify-content: flex-start; align-items: center; text-align: start;"><span><h5>ASSIGN WORK</h5></span></div><div><a href="../AssignWork/AssignWork.html" class="button">click Here</a></div></div>
+        <!-- <div class="c23"><div style="display: flex; justify-content: flex-start; align-items: center; text-align: start;"><span><h5>CHECK  WORK</h5></span></div><div><a href="https://example.com/another-page" class="button">click Here</a></div></div>            -->
+        <div class="c23">
+          <div style="display: flex; justify-content: flex-start; align-items: center; text-align: start;">
+            <span><h5>CHECK WORK</h5></span>
+          </div>
+          <div>
+            <button class="button" onclick="displayWorkUpdates()">Click Here</button>
+          </div>
+        </div>
+        
+      
+      </div>
+      <div class="c24" >
+        <div>
+          <div class="employees-container"><h5 style="text-align: center;">BIT MESRA SPORTS STAFF MEMBERS</h5>
+          </div>
+          
+          <div id="staff-names"></div>
+        </div>
+        <div>
+          <div id="updates-container"></div>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div>
+          <h4>Social Page</h4>
+          <ul class="footerlist">
+              <li><a target="_blank" href="https://www.facebook.com/BITMesraRanchi" class="fa fa-facebook"></a></li>
+              <li><a target="_blank" href="https://twitter.com/BITMesra_Ranchi" class="fa fa-twitter"></a></li>
+              <li><a target="_blank" href="https://www.youtube.com/channel/UClKOCa97mxvflz2Jdpg59HQ" class="fa fa-youtube"></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/bit.mediacell/" class="fa fa-instagram"></a></li>
+          </ul>
+       </div>
+      <div>
+          <h4>Get In Touch</h4>
+          <ul class="footerlist">
+              <li><a href="/BIT_Campus_Directory?cid=1">Campus Directory</a></li>
+              <li style="display:none;"><a class="btn btn-danger btn-lg" href="/Show_Content_Section?cid=1&amp;pid=442" target="_blank">Student Queries</a></li>
+          </ul>
+      </div>
+      <div>
+          <h4>Committees & Cell</h4>
+          <ul>
+              <li><a href="/Show_Other_Department?cid=1&amp;deptid=392" target="_blank">SC ST Cell</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=457">Media Cell</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=412">Anti Ragging Cell</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=409">Grievance Redressal</a></li>
+              <li><a href="https://www.bitmesra.ac.in/UploadedDocuments/pratyush_869/files/Rules_of_the_Institute.pdf" target="_blank">Service Rules and Regulations</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=410">Fire Safety</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=411">ICT Core Committee</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=366">Internal Complaint Committee</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=413">Disciplinary Committee</a></li>
+              <li><a href="/Show_Other_Department?cid=1&amp;deptid=422">Value Education Cell</a></li>
+              <li><a class="label label-danger" href="/Show_Content_Section?cid=1&amp;pid=483">Foundation Day 2023</a></li>
+          </ul>
+      </div>
+      <div>
+          <h4>Others</h4>
+          <ul>
+              <li><a class="label label-danger" href="https://www.bitmesra.ac.in/Show_Content_Section?cid=1&amp;pid=365" target="_blank">ERP Portal</a></li>
+              <li><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=322526" target="_blank">SB Collect</a></li>
+              <li><a href="https://www.mathworks.com/academia/tah-portal/birla-institute-of-technology-1095860.html" target="_blank">Matlab Portal</a></li>
+              <li><a href="/Show_Other_Department?cid=1&amp;deptid=402">राजभाषा प्रकोष्ठ&nbsp;</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=428">Student Satisfaction Survey (NAAC)</a></li>
+              <li><a href="https://bitmesra.ac.in/BIT_Recent_Openings_JRF_SRF_PF_RF_00893?cid=1">JRF / SRF Openings</a></li>
+              <li><a href="https://aicte-india.org/feedback/index.php" target="_blank">Student/Faculty Feedback (AICTE web portal)</a></li>
+              <li><a href="/Show_Content_Section?cid=1&amp;pid=456">Technical, Scientific Events and Festivals</a></li>
+          </ul>
+      </div>
+</footer>   
+    
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script> <!-- Include Firebase Storage SDK -->
+<script src="./Dashboard_Admin_script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

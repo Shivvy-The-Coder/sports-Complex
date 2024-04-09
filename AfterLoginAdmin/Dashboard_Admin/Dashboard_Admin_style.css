@@ -1,0 +1,235 @@
+
+
+
+body 
+{
+    padding: 0rem;
+    margin: 0rem;
+}
+.dis 
+{
+    display: flex; background-color:white; box-shadow: 1px 1px 15px black; border-radius: 5px;width: 100%;
+    flex-direction: column;align-items: center;
+}
+.container0
+{
+    background-color: #095899;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+.container1
+{
+  background-color: rgb(236, 226, 226);
+  height: 5vh;
+  display: flex;
+  margin-top: 0.1vh;
+  gap: 1rem;
+  justify-content:center;
+  color: white;
+}
+.container1>div>button
+{
+  color: white;
+  background-color:#095899;
+  border-radius: 5px;
+
+}
+footer
+{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.733);
+    gap: 5rem;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+.container2
+{
+    display: flex;
+    margin: 1rem 20rem;
+    height: 70vh;
+    gap: 5rem;
+}
+.container2>div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c21
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.c21>div
+{
+    height: 33.3%;
+}
+.cont
+{
+    height: 20%;
+}
+.c22
+{
+    padding: 5vh 13vh;
+    width: 0%;
+    display: inline-flex;
+    gap: 4vh;
+    flex-direction: column;
+    background-color:rgba(128, 128, 128, 0.288);
+}
+.c24
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 40%;
+
+}
+.c24>div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 236, 236);
+    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 15px;
+
+}
+.c24>div>div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.c22 .button
+{
+    width: 15rem;
+    height: 5vh;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin:0.1rem 0rem;
+}
+
+.employees-container {
+    max-height: 400px; 
+    overflow-y: auto;
+  }
+  
+.c23
+{
+    display: flex;
+    gap: -1rem;
+    height: 6vh;
+    text-align: center;
+}
+.c23>div span
+{
+    width: 10rem;
+}
+.designed
+{
+  display: flex; background-color:white; box-shadow: 1px 1px 15px black; border-radius: 5px;width: 60%; 
+}
+.designed>div
+{
+    width: 100%;
+}
+.image 
+{
+    display: flex;
+    flex-direction: column;
+}
+.image> div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#t1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0.1rem 1rem ;
+    /* margin: 0.1rem 1.5rem; */
+}
+
+#profile-picture {
+    height: 100%;
+    border-radius: 50%;
+    width: 100%;
+}
+
+
+
+
+/* Define styles for the button */
+.image button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Define hover animation */
+.image button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.dis {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 5px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.dis h2 {
+    margin-bottom: 10px; /* Add margin below heading for spacing */
+}
+
+.dis p {
+    margin-bottom: 5px; /* Add margin between paragraphs for spacing */
+}
